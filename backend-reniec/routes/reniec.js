@@ -8,7 +8,7 @@ router.get('/dni/:numero', async (req, res) => {
   try {
     const response = await axios.get(`https://api.apis.net.pe/v1/dni?numero=${dni}`, {
       headers: {
-        Authorization: 'Bearer apis-token-1.aTSI1U7KEuT-6bbbCguH-4Y8TI6KS73N',
+        Authorization: '',
         'Content-Type': 'application/json'
       }
     });
